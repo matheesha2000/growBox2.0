@@ -508,8 +508,6 @@ body::-webkit-scrollbar {
   padding-left: 30px;
   text-align: center;
   justify-content: center;
-  background-color: var(--colorultralightGreen);
-  color: var(--colorGreenMain);
 
 }
 
@@ -582,3 +580,517 @@ body::-webkit-scrollbar {
 .D-copyright {
   color: var(--colorLightGreen);
 }
+
+
+/* Pacakges Start By Here */
+
+.SectionMarginTop{
+  margin-top: 150px;
+}
+
+.line1{
+  background-color: var(--colorLightGreen);
+  border-radius: 12px;
+}
+
+.line2{
+  background-color: #87C38F;
+  border-radius: 12px;
+}
+
+.line3{
+  background-color: var(--colorGreenMain);
+  border-radius: 12px;
+}
+
+
+.J-PackCardTopTitle{
+  background-color: var(--colorBlueMain);
+  border-radius: 8px 8px 0 0;
+}
+
+.J-PackCardTopTitleText {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.87px;
+}
+
+.J-PackCardBlog{
+  transition: .6s;
+}
+
+.J-PackCardBlog:hover{
+  transform: translateX(10px);
+}
+
+.J-PackCardText{
+  padding-top: 12px;
+  color: #464646;
+  font-family: var(--mainfont);
+
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.39px;
+  text-align: justify;
+}
+
+.J-PackCardTitle {
+  color: #464646;
+  font-family: var(--mainfont);
+  font-size: 21px;
+  font-weight: 600;
+  letter-spacing: 1.167px;
+}
+
+.J-PackCardTitleSeco{
+  color: var(--colorBlueMain);
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 1.167px;
+}
+
+
+.J-PackCardPrice{
+  color: #22577A;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.39px;
+}
+
+.J-PackCardBackGround {
+  border-radius: 16px;
+  background: #FFF;
+  box-shadow: 0px 4px 18px 0px rgba(34, 87, 122, 0.15);
+}
+
+/* all content start here */
+.J-PackMainText {
+  color: var(--colorBlueMain);
+  text-align: center;
+  font-family: var(--mainfont);
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 1.35px;
+}
+
+.J-SubTextMain {
+  color: var(--colorBlueMain);
+  font-family: var(--mainfont);
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: 0.78px;
+}
+
+.J-SubTextSec {
+  color: var(--colorBlueMain);
+  font-family: var(--mainfont);
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.78px;
+}
+
+.J-AccodianTitle {
+  color: var(--colorBlueMain);
+  font-family: var(--mainfont);
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+}
+
+.J-AccodianDetails {
+  color: var(--colorBlueMain);
+  font-family: var(--mainfont);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 33px;
+  letter-spacing: 0.16px;
+}
+
+.J--SectionTop {
+  margin-top: 50px;
+}
+
+.J-CardBody {
+  border-radius: 12px;
+  border: 1px solid #E9E9E9;
+  background: var(--colorWhite);
+  box-shadow: 0px 4px 18px 0px rgba(34, 87, 122, 0.15);
+}
+
+.J-OderCardTitle {
+  color: var(--colorBlueMain);
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 2.4px;
+}
+
+.J-OderCardDescription01 {
+  color: #598CAE;
+  font-size: 21px;
+  font-weight: 600;
+  letter-spacing: 0.63px;
+}
+
+.J-OderCardDescription02 {
+  color: var(--colorBlueMain);
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.24px;
+}
+
+.img-fluid{
+  border-radius: 30px;
+  height: 250px;
+  width: 4000px;
+}
+
+
+
+
+/* Basic Package Start By Here */
+
+.SectionMarginTop1{
+  margin-top: 150px;
+}
+
+.topic1{
+  color: #464646;
+  font-weight: 400;
+  font-family: var(--mainfont);
+
+}
+
+.topic2{
+  color: #464646;
+  font-weight: 600;
+  font-family: var(--mainfont);
+
+}
+
+
+
+.D-ShopItemCard {
+  background-color: #fff;
+  box-shadow: 0px 2px 10px 0px rgba(34, 87, 122, 0.15);
+  border-radius: 14px;
+  /* height: 31.5rem; */
+  transition: .7s;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 100px;
+  width: 400px;
+}
+
+.D-ShopItemCard:hover {
+  cursor: pointer;
+  transform: translateY(-10px);
+}
+
+.D-ShopItemCard:hover .D-ShopItemImage{
+  transform: scale(1.04);
+}
+
+
+
+
+.D-SecCardSignleItem {
+  border: 1.5px solid var(--colorBlueMain);
+  border-radius: 12px;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.D-ShopMainText {
+  color: var(--colorBlueMain);
+  font-family: var(--mainfont);
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 0.37px;
+}
+
+/* product card */
+img {
+  width: 100%;
+}
+
+.D-ShopItemTitle {
+  color: var(--colorBlueMain);
+  font-family: var(--mainfont);
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.45px;
+  color: var(--colorGreenMain);
+}
+
+.D-ShopItemPrice {
+  color: var(--colorBlueMain);
+  font-family: var(--mainfont);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.539px;
+  color: var(--colorGreenMain);
+}
+
+.ri-star-line {
+  color: var(--colorYellow);
+  font-size: 20px;
+}
+
+.D-SectionPAdding {
+  margin-top: 130px;
+}
+
+.D-ShopRatings {
+  margin-top: -17px;
+}
+
+.D-ShopItemImage {
+  border-radius: 12px;
+  transition: .7s;
+  
+}
+
+.D-ShopAddToCartButton {
+  height: 100%;
+}
+
+
+.D-ShopAddToCartButton:hover {
+  height: 100%;
+}
+
+
+/* Card 01 */
+.D-Button-Primary1 {
+
+  width: 160px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  box-shadow: 0px 4px 16px 0px rgba(34, 87, 122, 0.25);
+  background:var(--colorGreenMain);
+  color: white;
+  border-color: transparent;
+  transition: 10ms;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 20px;
+}
+
+.D-Button-Primary1:hover {
+  background-color:var(--colorLightGreen) !important;
+  color: white;
+  border: none;
+}
+
+
+
+.D-Button-PrimaryCopy1{
+  width: 160px;
+  height: 44px;
+  margin-left: 25px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  box-shadow: 0px 4px 16px 0px rgba(34, 87, 122, 0.25);
+  background:var(--colorGreenMain);
+  color: white;
+  border-color: transparent;
+  transition: 10ms;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 20px;
+  
+}
+
+.D-Button-PrimaryCopy1:hover {
+  background-color:var(--colorLightGreen) !important;
+  color: white;
+  border: none;
+}
+
+
+
+
+
+.D-ShopAddToCartButton {
+  height: 100%;
+}
+
+.D-ShopAddToCartButton:hover {
+  height: 100%;
+}
+
+.cart {
+  position: fixed;
+  top: 0;
+  right: 0;
+  right: -100%;
+  width: 1000px;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 20px;
+  background-color: white;
+  border-radius: 14px;
+  box-shadow: 0px 4px 16px 0px rgba(34, 87, 122, 0.25);
+  transition: 1.5s;
+  z-index: 9999;
+  /* border: 1px solid var(--colorBlueMain); */
+}
+
+.cart.active {
+  right: 0;
+  transition: .5s;
+}
+
+.cart-title {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  color: var(--colorGreenMain);
+  font-size: 50px;
+}
+
+
+.cart-box {
+  display: grid;
+  grid-template-columns: 32% 50% 18%;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  
+  
+}
+
+.cart-img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  padding: 10px;
+}
+
+.cart-product-details{
+  font-family: var(--mainfont);
+  font-size: 0.8rem;
+  color: var(--colorGreenMain);
+  font-weight:400px ;
+  
+
+}
+
+.detail-box {
+  display: grid;
+  row-gap: .5rem;
+}
+
+.cart-product-title {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: var(--colorGreenMain);
+  font-weight:1400px ;
+  
+
+}
+
+
+
+.cart-price {
+  font-weight: 500;
+}
+
+.cart-quantity {
+  border: 1px solid var(--text-color);
+  outline-color: var(--main-color);
+  width: 2.4rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.cart-remove {
+  font-size: 24px;
+  color: var(--main-color);
+  cursor: pointer;
+}
+
+.total {
+  display: flex;
+  justify-content: flex-end;
+  
+  border-top: 2px solid red;
+  margin-bottom: -30px;
+}
+
+.total-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--colorGreenMain);
+  font-size: 25px;
+}
+
+.total-price {
+  margin-left: .5rem;
+  color: var(--colorGreenMain);
+  font-size: 25px;
+}
+
+.D-ShopButtonBuyNow {
+  width: 136px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  box-shadow: 0px 4px 16px 0px rgba(34, 87, 122, 0.25);
+  background: var(--colorGreenMain);
+  color: white;
+  border-color: transparent;
+  transition: 10ms;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 25px;
+}
+
+.D-ShopButtonBuyNow:hover {
+  background-color: var(--colorLightGreen) !important;
+  border: none !important;
+}
+
+#cart-close {
+  position: absolute;
+  top: 1rem;
+  right: .8rem;
+  font-size: 2rem;
+  color: red;
+  cursor: pointer;
+}
+
+
+.float {
+  position: fixed;
+  bottom: 70%;
+  right: 0px;
+  background-color: var(--colorBlueMain);
+  color:var(--colorGreenMain);
+  box-shadow: 0px 4px 16px 0px rgba(34, 87, 122, 0.25);
+  z-index: 999;
+  border-radius: 50% 0px 0px 50%;
+  /* transform: rotate(-90deg); */
+
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+.Chilli-details{
+  color: red;
+  display: none;
+}
+.Chilli-Price{
+  display: none;
+  color:var(--colorGreenMain);
+}
+
+.ChilliSeedPacket {
+  display: none;
+}
+
