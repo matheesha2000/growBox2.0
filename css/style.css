@@ -624,7 +624,184 @@ color: #076C54;
 
 
 
-/*Packages Start By Here */
+
+/*About us page start by here*/
+
+.aboutUstopic1{
+ 
+  color: #464646;
+  padding-bottom: 10px;
+}
+
+.aboutUsImg{
+  
+  height: 400px;
+  width: 400px;
+  border-radius: 20px;
+
+}
+
+.t-aboutUsMain{
+  color: var(--colorGreenMain);
+  font-style: var(--mainfont);
+  font-weight: 600px;
+  margin-top: 10px;
+  
+ 
+}
+
+.t-aboutUsDes{
+  color:var(--colorBlack);
+  font-style: var(--mainfont);
+  font-weight: 400px;
+  
+  letter-spacing: 0.01rem;
+
+}
+
+.aboutUstopic2{
+  margin-top: 60px;
+  color: #464646;
+}
+
+
+
+.row{
+  
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2em 1em;
+  
+}
+
+.column{
+  width: 100%;
+  
+  padding: 0.5em 0;
+
+}
+
+.teamMembers{
+  color: #464646;
+  margin-left: 600px;
+  font-size: 30px;
+}
+
+
+
+.card{
+  box-shadow: 0 0 0.2em rgba(25,0,58,0.1);
+  padding: 3.5em 1em;
+  border-radius:0.6em;
+  cursor: pointer;
+  color: #076C54;
+  transition: 0.3s;
+  margin-top: 20px;
+  
+}
+
+
+.card .img-container{
+  width: 8em;
+  height: 8em;
+  background-color:var(--colorGreenMain);
+  padding: 0.5em;
+  border-radius: 50%;
+  margin: 0 auto 2em auto;
+}
+
+.card img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+
+
+
+.memberName{
+   font-weight: 500px;
+   color: var(--colorBlack);
+   text-transform: uppercase;
+   text-align: center;
+}
+
+.memberDetails{
+  font-weight: 500;
+  color: var(--colorBlack);
+  text-transform: uppercase;
+  margin: 0.5em 0 2em 0;
+  text-align: center;
+  letter-spacing: 2px;
+
+}
+
+.icons{
+  text-align: center;
+  width: 50%;
+  min-width: 180px;
+  margin: auto;
+ 
+  justify-content: space-between;
+  letter-spacing: 2px;
+  color: var(--colorBlack);
+  text-align: center;
+
+}
+
+.card a{
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.4em;
+  
+}
+
+
+
+.card:hover{
+  background-color:var(--colorLightGreen);
+}
+
+
+
+.teamMemberImage2{
+  height: 112px;
+}
+
+.card:hover .img-container{
+  transform: scale(1.15);
+}
+
+
+
+@media screen and (min-width:768px) {
+  section{
+    padding: 1em 7em;
+  }
+}
+
+@media screen and (min-width : 992px){
+  section{
+    padding:1em;
+  }
+
+  .card{
+    padding:5em 1em;
+  }
+
+  .column{
+    flex: 0 0 33.33%;
+    max-width: 33.33;
+    padding: 0  1em;
+  }
+}
+
+.teamMemberImage3{
+  height: 112px;
+}
+
+.teamMemberImage4{
+  height: 112px;
+}
 
 
 
