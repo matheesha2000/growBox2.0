@@ -45,9 +45,9 @@ function addEvents() {
     });
 
     // Add item to cart
-    let addCart_btns = document.querySelectorAll(".add-cart");
+    let addCart_btns = document.querySelectorAll(".Second-add-cart");
     addCart_btns.forEach((btn) => {
-        btn.addEventListener("click", handle_addCartItem);
+        btn.addEventListener("click", handle_second_addCartItem);
     });
 
     // Buy Order
@@ -58,13 +58,14 @@ function addEvents() {
 // ============= HANDLE EVENTS FUNCTIONS =============
 let itemsAdded = [];
 
-function handle_addCartItem() {
-    let product = this.parentElement;
-    let title = product.querySelector(".product-title").innerHTML;
-    let details = product.querySelector(".product-details").innerHTML;
-    let price = product.querySelector(".product-price").innerHTML;
-    let imgSrc = product.querySelector(".product-img").src;
-    console.log(title,details, price, imgSrc);
+function handle_second_addCartItem() {
+    let product = this.parentElement.parentElement;
+    let title = product.querySelector(".product-title1").innerHTML;
+    let details = product.querySelector(".product-detail1").innerHTML;
+    let price = product.querySelector(".product-price1").innerHTML;
+    let imgSrc = product.querySelector(".product-img1").src;
+
+    console.log(title, details, price, imgSrc);
 
     let newToAdd = {
         title,
@@ -82,7 +83,7 @@ function handle_addCartItem() {
     }
 
     // Add product to cart
-    let cartBoxElement = CartBoxComponent(title, price, imgSrc,details);
+    let cartBoxElement = CartBoxComponent(title, price, imgSrc, details);
     let newNode = document.createElement("div");
     newNode.innerHTML = cartBoxElement;
     const cartContent = cart.querySelector(".cart-content");
@@ -90,6 +91,7 @@ function handle_addCartItem() {
 
     update();
 }
+
 
 function handle_removeCartItem() {
     this.parentElement.remove();
@@ -133,16 +135,14 @@ function updateTotal() {
         let priceElement = cartBox.querySelector(".cart-price");
         let price = parseFloat(priceElement.innerHTML.replace("Rs.", ""));
         let quantity = cartBox.querySelector(".cart-quantity").value;
-        total += price * quantity  ;
-
+        total += price * quantity + 300;
     });
 
     // keep 2 digits after the decimal point
     total = total.toFixed(2);
-    
     // or you can use also
     // total = Math.round(total * 100) / 100;
-    
+
     totalElement.innerHTML = "Rs." + total;
 }
 
@@ -152,15 +152,15 @@ function CartBoxComponent(title, price, imgSrc, details) {
     <div class="cart-box">
         <img src=${imgSrc} alt="" class="cart-img">
         <div class="detail-box">
-            <div class="cart-product-title">${title}</div>
+            <div class="cart-product-title">${title +"  -  (Basic Package)"}</div>
             <div class="cart-product-details">${details}</div>
             <div class="cart-price">${price}</div>
-            
+            <div class="cart-Shipping-Cost">${"Shipping Cost + Rs.300.00"}</div>
             <input type="number" value="1" class="cart-quantity">
+            
            
         </div>
         <!-- REMOVE CART  -->
         <i class='ri-delete-bin-fill cart-remove'></i>
-        
     </div>`;
 }
