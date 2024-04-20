@@ -1,3 +1,6 @@
+/* basicPackages page Loader start by here */
+
+
 document.addEventListener("DOMContentLoaded", function() {
     // Get the button element
     const loadbasicChilliPage = document.getElementById("basicChilliPackage");
@@ -142,4 +145,152 @@ document.addEventListener("DOMContentLoaded", function() {
 
 });
 
+
+/* standardPackage Start By here */
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the button element
+    const loadstandardChilliPage = document.getElementById("standardChilliPackage");
+
+    // Add click event listener to the button
+    loadstandardChilliPage.addEventListener("click", function() {
+        // Redirect to new page
+        window.location.href = "standardChilliPackage.html";
+    });
+
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the button element
+    const loadstandardTomatoPage = document.getElementById("standardTomatoPackage");
+
+    // Add click event listener to the button
+    loadstandardTomatoPage.addEventListener("click", function() {
+        // Redirect to new page
+        window.location.href = "standardTomatoPackage.html";
+    });
+
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the button element
+    const loadstandardBeansPage = document.getElementById("standardBeansPackage");
+
+    // Add click event listener to the button
+    loadstandardBeansPage.addEventListener("click", function() {
+        // Redirect to new page
+        window.location.href = "standardBeansPackage.html";
+    });
+
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the button element
+    const loadstandardBrinjolPage = document.getElementById("standardBrinjolPackage");
+
+    // Add click event listener to the button
+    loadstandardBrinjolPage.addEventListener("click", function() {
+        // Redirect to new page
+        window.location.href = "standardBrinjolPackage.html";
+    });
+
+});
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the button element
+    const loadstandardCucumberPage = document.getElementById("standardCucumberPackage");
+
+    // Add click event listener to the button
+    loadstandardCucumberPage.addEventListener("click", function() {
+        // Redirect to new page
+        window.location.href = "standardCucumberPackage.html";
+    });
+
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the button element
+    const loadstandardYellowPage = document.getElementById("standardYellowPackage");
+
+    // Add click event listener to the button
+    loadstandardYellowPage.addEventListener("click", function() {
+        // Redirect to new page
+        window.location.href = "standardYellowPackage.html";
+    });
+
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the button element
+    const loadstandardRootPage = document.getElementById("standardRootPackage");
+
+    // Add click event listener to the button
+    loadstandardRootPage.addEventListener("click", function() {
+        // Redirect to new page
+        window.location.href = "standardRootPackage.html";
+    });
+
+});
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the button element
+    const loadstandardSpanichPage = document.getElementById("standardSpanichPackage");
+
+    // Add click event listener to the button
+    loadstandardSpanichPage.addEventListener("click", function() {
+        // Redirect to new page
+        window.location.href = "standardSpanichPackage.html";
+    });
+
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the button element
+    const loadstandardLadyPage = document.getElementById("standardLadyPackage");
+
+    // Add click event listener to the button
+    loadstandardLadyPage.addEventListener("click", function() {
+        // Redirect to new page
+        window.location.href = "standardLadyPackage.html";
+    });
+
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the button element
+    const loadstandardCabbagePage = document.getElementById("standardCabbagePackage");
+
+    // Add click event listener to the button
+    loadstandardCabbagePage.addEventListener("click", function() {
+        // Redirect to new page
+        window.location.href = "standardCabbagePackage.html";
+    });
+
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the button element
+    const loadstandardRedishPage = document.getElementById("standardRedishPackage");
+
+    // Add click event listener to the button
+    loadstandardRedishPage.addEventListener("click", function() {
+        // Redirect to new page
+        window.location.href = "standardRedishPackage.html";
+    });
+
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the button element
+    const loadstandardOnionPage = document.getElementById("standardOnionPackage");
+
+    // Add click event listener to the button
+    loadstandardOnionPage.addEventListener("click", function() {
+        // Redirect to new page
+        window.location.href = "standardOnionPackage.html";
+    });
+
+})
 

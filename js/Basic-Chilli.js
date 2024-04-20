@@ -135,16 +135,21 @@ function updateTotal() {
         let priceElement = cartBox.querySelector(".cart-price");
         let price = parseFloat(priceElement.innerHTML.replace("Rs.", ""));
         let quantity = cartBox.querySelector(".cart-quantity").value;
-        total += price * quantity + 300;
+        total += price * quantity;
     });
+
+    // Add Rs. 300 to the total
+    total += 300;
 
     // keep 2 digits after the decimal point
     total = total.toFixed(2);
+    
     // or you can use also
     // total = Math.round(total * 100) / 100;
-
+    
     totalElement.innerHTML = "Rs." + total;
 }
+
 
 // ============= HTML COMPONENTS =============
 function CartBoxComponent(title, price, imgSrc, details) {

@@ -45,9 +45,9 @@ function addEvents() {
     });
 
     // Add item to cart
-    let addCart_btns = document.querySelectorAll(".add-cart");
+    let addCart_btns = document.querySelectorAll(".Standard-add-cart");
     addCart_btns.forEach((btn) => {
-        btn.addEventListener("click", handle_addCartItem);
+        btn.addEventListener("click", handle_standard_addCartItem);
     });
 
     // Buy Order
@@ -58,13 +58,14 @@ function addEvents() {
 // ============= HANDLE EVENTS FUNCTIONS =============
 let itemsAdded = [];
 
-function handle_addCartItem() {
-    let product = this.parentElement;
-    let title = product.querySelector(".product-title").innerHTML;
-    let details = product.querySelector(".product-details").innerHTML;
-    let price = product.querySelector(".product-price").innerHTML;
-    let imgSrc = product.querySelector(".product-img").src;
-    console.log(title,details, price, imgSrc);
+function handle_standard_addCartItem() {
+    let product = this.parentElement.parentElement;
+    let title = product.querySelector(".product-title2").innerHTML;
+    let details = product.querySelector(".product-detail2").innerHTML;
+    let price = product.querySelector(".product-price2").innerHTML;
+    let imgSrc = product.querySelector(".product-img2").src;
+
+    console.log(title, details, price, imgSrc);
 
     let newToAdd = {
         title,
@@ -82,7 +83,7 @@ function handle_addCartItem() {
     }
 
     // Add product to cart
-    let cartBoxElement = CartBoxComponent(title, price, imgSrc,details);
+    let cartBoxElement = CartBoxComponent(title, price, imgSrc, details);
     let newNode = document.createElement("div");
     newNode.innerHTML = cartBoxElement;
     const cartContent = cart.querySelector(".cart-content");
@@ -90,6 +91,8 @@ function handle_addCartItem() {
 
     update();
 }
+
+
 
 function handle_removeCartItem() {
     this.parentElement.remove();
@@ -155,17 +158,15 @@ function CartBoxComponent(title, price, imgSrc, details) {
     <div class="cart-box">
         <img src=${imgSrc} alt="" class="cart-img">
         <div class="detail-box">
-            <div class="cart-product-title">${title}</div>
+            <div class="cart-product-title">${title +"  -  (Standard Package)"}</div>
             <div class="cart-product-details">${details}</div>
             <div class="cart-price">${price}</div>
-            
-            
+            <div class="cart-Shipping-Cost">${"Shipping Cost + Rs.300.00"}</div>
             <input type="number" value="1" class="cart-quantity">
+            
            
         </div>
-        
         <!-- REMOVE CART  -->
         <i class='ri-delete-bin-fill cart-remove'></i>
-        
     </div>`;
 }

@@ -359,7 +359,7 @@ body::-webkit-scrollbar {
 }
 
 .A-span {
-  width: 155px;
+  width: 1550px;
   height: 45px;
 }
 
@@ -369,12 +369,46 @@ body::-webkit-scrollbar {
 
 }
 
-.A-home-video-frame {
-  border-radius: 28px;
+.video {
+  border-radius: 25px;
+}
+
+.imageH{
+  height: 45px;
+  width: 155px;
+}
+
+.imageH1{
+  height: 45px;
+  width: 105px;
+
+}
+
+/* Video Gallery Start By here */
+.container .main-video{
+  background: #fff;
+  border-radius: 5px;
+  padding: 10px;
+}
+.container .main-video .video{
+  width: 100%;
+  border-radius: 5px;
 }
 
 
 
+.video-list{
+  background: #fff;
+  border-radius: 5px;
+  height: 520px;
+  overflow-y: scroll;
+}
+
+.container .video-list .video1{
+  width: 300px;
+  height: 200px;
+  border-radius: 25px;
+}
 
 
 /* 
@@ -462,7 +496,7 @@ body::-webkit-scrollbar {
 .A-card-rev {
   border-radius: 28px;
   background-color: var(--colorGreenMain);
-  height: 400px;
+  height: 470px;
   transition: 1s;
 }
 
@@ -470,6 +504,13 @@ body::-webkit-scrollbar {
   transform: translateY(-5px);
   box-shadow: 0px 3.22353px 14.50588px 0px rgba(34, 87, 122, 0.15);
   cursor: pointer;
+
+}
+
+.d-rev-ProfilePhoto{
+  height: 150px;
+  width: 150px;
+  border-radius:75px;
 }
 
 /* .A-card-hover:hover {
@@ -1192,4 +1233,28 @@ img {
 }
 .chilliVarients-Cart-Display{
   display: none;
+}
+
+
+/* Standard Package Start By Here */
+
+.plus{
+  color: red;
+  font-family: var(--mainfont);
+  font-weight: 600px;
+  margin-left: 180px;
+}
+
+.Free-food{
+  height: 180px;
+  width: 130px;
+}
+
+.fa-file{
+  color: red;
+}
+
+#joinn{
+  height: 300px;
+  width: 300px;
 }
