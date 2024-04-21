@@ -294,3 +294,149 @@ document.addEventListener("DOMContentLoaded", function() {
 
 })
 
+
+/* Premium Package start by here */
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the button element
+    const loadpremiumChilliPage = document.getElementById("premiumChilliPackage");
+
+    // Add click event listener to the button
+    loadpremiumChilliPage.addEventListener("click", function() {
+        // Redirect to new page
+        window.location.href = "premiumChilliPackage.html";
+    });
+
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the button element
+    const loadpremiumTomatoPage = document.getElementById("premiumTomatoPackage");
+
+    // Add click event listener to the button
+    loadpremiumTomatoPage.addEventListener("click", function() {
+        // Redirect to new page
+        window.location.href = "premiumTomatoPackage.html";
+    });
+
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the button element
+    const loadpremiumBeansPage = document.getElementById("premiumBeansPackage");
+
+    // Add click event listener to the button
+    loadpremiumBeansPage.addEventListener("click", function() {
+        // Redirect to new page
+        window.location.href = "premiumBeansPackage.html";
+    });
+
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the button element
+    const loadpremiumBrinjolPage = document.getElementById("premiumBrinjolPackage");
+
+    // Add click event listener to the button
+    loadpremiumBrinjolPage.addEventListener("click", function() {
+        // Redirect to new page
+        window.location.href = "premiumBrinjolPackage.html";
+    });
+
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the button element
+    const loadpremiumCucumberPage = document.getElementById("premiumCucumberPackage");
+
+    // Add click event listener to the button
+    loadpremiumCucumberPage.addEventListener("click", function() {
+        // Redirect to new page
+        window.location.href = "premiumCucumberPackage.html";
+    });
+
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the button element
+    const loadpremiumYellowPage = document.getElementById("premiumYellowPackage");
+
+    // Add click event listener to the button
+    loadpremiumYellowPage.addEventListener("click", function() {
+        // Redirect to new page
+        window.location.href = "premiumYellowPackage.html";
+    });
+
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the button element
+    const loadpremiumRootPage = document.getElementById("premiumRootPackage");
+
+    // Add click event listener to the button
+    loadpremiumRootPage.addEventListener("click", function() {
+        // Redirect to new page
+        window.location.href = "premiumRootPackage.html";
+    });
+
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the button element
+    const loadpremiumSpinachPage = document.getElementById("premiumSpinachPackage");
+
+    // Add click event listener to the button
+    loadpremiumSpinachPage.addEventListener("click", function() {
+        // Redirect to new page
+        window.location.href = "premiumSpinachPackage.html";
+    });
+
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the button element
+    const loadpremiumLadyPage = document.getElementById("premiumLadyPackage");
+
+    // Add click event listener to the button
+    loadpremiumLadyPage.addEventListener("click", function() {
+        // Redirect to new page
+        window.location.href = "premiumLadyfingerPackage.html";
+    });
+
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the button element
+    const loadpremiumCabbagePage = document.getElementById("premiumCabbagePackage");
+
+    // Add click event listener to the button
+    loadpremiumCabbagePage.addEventListener("click", function() {
+        // Redirect to new page
+        window.location.href = "premiumCabbagePackage.html";
+    });
+
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the button element
+    const loadpremiumRedishPage = document.getElementById("premiumRedishPackage");
+
+    // Add click event listener to the button
+    loadpremiumRedishPage.addEventListener("click", function() {
+        // Redirect to new page
+        window.location.href = "premiumRedishPackage.html";
+    });
+
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the button element
+    const loadpremiumOnionPage = document.getElementById("premiumOnionPackage");
+
+    // Add click event listener to the button
+    loadpremiumOnionPage.addEventListener("click", function() {
+        // Redirect to new page
+        window.location.href = "premiumOnionPackage.html";
+    });
+
+});
