@@ -451,6 +451,7 @@ body::-webkit-scrollbar {
   display: block;
   margin: 0 auto;
   margin-bottom: 15px;
+  object-fit: cover;
 }
 
 /* card name */
