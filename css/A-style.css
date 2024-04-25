@@ -1329,3 +1329,82 @@ img {
 .service-package-image{
   border-radius: 10px;
 }
+
+
+/*   -------------      BLOG     ------------------ */
+
+/*   ------------   Tomato BLOG  ------------------*/
+
+.B-Tomato-Img{
+  height: 500px;
+  width: 500px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+ 
+
+}
+
+/* -------------- Contact-Us Page Start By Here ----------------- */
+.container-section{
+  margin-left: 110px;
+}
+.contact-us-title{
+  color: var(--colorGreenMain);
+  font-family: var(--mainfont);
+  font-weight: 2000px;
+  padding-top: 140px;
+  font-size: 40px;
+  
+  
+
+}
+
+.contact-us-des{
+  color: var(--colorGreenMain);
+  font-family: var(--mainfont);
+  font-weight: 500px;
+  font-size: 25px;
+  
+
+}
+
+.form-label-Tag{
+  color: var(--colorGreenMain);
+}
+.form-label-Tag1{
+  color: var(--colorGreenMain);
+  padding-top: 40px;
+}
+.form-label-Tag-Star{
+  color: red;
+}
+.form-label2{
+  margin-top: 20px;
+}
+
+.form-control{
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  border-color: var(--colorGreenMain);
+  border-width: 3px;
+  border-radius: 0;
+  width: 280px;
+  
+}
+.form-control1{
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  border-color: var(--colorGreenMain);
+  border-width: 3px;
+  border-radius: 0;
+  width: 650px;
+  
+}
+
+
+.label-size{
+  margin-top: 50px;
+}
