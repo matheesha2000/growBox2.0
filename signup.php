@@ -265,7 +265,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
             <div class="btn ">
               <div class="d-flex1 justify-content-center">
                 <!-- IDs added to the links for JavaScript to reference -->
-                <a id="account-button" href="#">
+                <a id="account-button" href="\profile.php">
                   <button class="D-Button-Primary2 px-4 text-center" type="submit">
                     Create Account
                   </button>

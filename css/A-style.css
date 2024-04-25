@@ -542,6 +542,7 @@ body::-webkit-scrollbar {
 
 .D-NewsAlertSubscribe {
   text-align: center;
+  height: 400px;
 }
 
 .form-input {
@@ -579,6 +580,8 @@ body::-webkit-scrollbar {
   margin-top: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
+  
+  
 }
 
 .footer-heading {
@@ -1255,6 +1258,6 @@ img {
 }
 
 #joinn{
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 400px;
 }

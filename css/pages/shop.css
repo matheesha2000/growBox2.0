@@ -230,6 +230,10 @@
     transform: scale(1.04);
 }
 
+.d-block{
+  height: 00px;
+}
+
 
 .D-SecCardSignleItem {
     border: 1.5px solid var(--colorGreenMain);
@@ -252,7 +256,7 @@ img {
 }
 
 .D-ShopItemTitle {
-    color: var(--colorGreenMain);
+    color: var(--colorBlack);
     font-family: var(--mainfont);
     font-size: 22px;
     font-weight: 700;
@@ -260,7 +264,7 @@ img {
 }
 
 .D-ShopItemPrice {
-    color: var(--colorGreenMain);
+    color: var(--colorBlack);
     font-family: var(--mainfont);
     font-size: 16px;
     font-weight: 600;
@@ -268,17 +272,32 @@ img {
 }
 
 .ri-star-line {
-    color: var(--colorLightyellow);
-    font-size: 20px;
+    color: orange;
+    font-size: 15px;
+}
+
+.ri-star-fill{
+  color: orange;
+  font-size: 15px;
+}
+
+.rating{
+  font-size: 18px ;
+  color: black;
+
 }
 
 .D-ShopRatings {
     margin-top: -17px;
+    font-weight: 200px;
+    color: black;
+    
 }
 
 .D-ShopItemImage {
     border-radius: 12px;
     transition: .7s;
+    height: 300px;
 }
 
 .D-ShopAddToCartButton {
@@ -490,3 +509,5 @@ img {
   .D-copyright {
     color: var(--colorLightGreen);
   }
+
+
