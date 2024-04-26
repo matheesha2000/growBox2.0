@@ -248,6 +248,7 @@ body::-webkit-scrollbar {
   height: 357px;
   flex-shrink: 0;
   border-radius: 28px;
+  object-fit: cover;
 }
 
 .A-top-head {
@@ -547,6 +548,14 @@ body::-webkit-scrollbar {
 }
 
 .form-input {
+  border-radius: 28px;
+  padding-left: 30px;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.form-input1 {
   border-radius: 28px;
   padding-left: 30px;
   text-align: center;
@@ -928,6 +937,7 @@ img {
   color: white;
   border: none;
 }
+
 
 
 
@@ -1394,6 +1404,45 @@ img {
   width: 280px;
   
 }
+.form-control2{
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  border-color: var(--colorGreenMain);
+  border-width: 3px;
+  border-radius: 0;
+  width: 650px;
+  
+}
+
+.form-control2:active,
+.form-control2:focus {
+    outline: none;
+  
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color:var(--colorGreenMain);
+}
+
+.form-control1:active,
+.form-control1:focus {
+    outline: none;
+  
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color:var(--colorGreenMain);
+}
+
+.form-control:active,
+.form-control:focus {
+    outline: none;
+  
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color:var(--colorGreenMain);
+}
+
+
 .form-control1{
   border-top-style: none;
   border-right-style: none;
