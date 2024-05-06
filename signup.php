@@ -172,7 +172,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="\profile.html"> Profile </a>
+              <a class="nav-link" href="\profile.php"> Profile </a>
             </li>
 
             <li class="nav-item">
@@ -187,7 +187,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
           <div class="d-flex justify-content-center g-4">
               <!-- IDs added to the links for JavaScript to reference -->
-                <a id="account-button" href="\login.html" >
+                <a id="account-button" href="\login.php" >
                     <button class="D-Button-Primary text-center ">
                         Login
                     </button>
