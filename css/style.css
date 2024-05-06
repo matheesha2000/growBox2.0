@@ -586,6 +586,7 @@ font-size: 20px;
 
 .logout{
 padding-left: 110px;
+padding-bottom: 10px;
 }
 
 .colum1{
@@ -618,7 +619,7 @@ border-radius: 15px;
 
 .order3{
 padding-top:120px ;
-color: #076C54;
+color:var(--colorGreenMain);
 }
 
 
@@ -805,8 +806,41 @@ color: #076C54;
 }
 
 
+/*
+.float{
+	position:fixed;
+  padding: 10px 25px;
+  font-size: 18px;
+  text-decoration: none;
+	bottom:20px;
+	right:20px;
+	background-color:var(--colorGreenMain);
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  z-index: 50;
+}
 
+.floating {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
 
+@keyframes floating {
+  from {
+      transform: translate(0, 0px);
+  }
+
+  65% {
+      transform: translate(0, 15px);
+  }
+
+  to {
+      transform: translate(0, -0px);
+  }
+*/
 
 
 

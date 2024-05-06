@@ -108,53 +108,63 @@ session_start();
 
 <body class="container">
 
-    <!-- Nav Bars start -->
-  <div class="container-fluid">
-    <div class="container fixed-top">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary px-4 py-0 mt-4 d-NavContainerFluid">
-        <a class="navbar-brand" href="/index.html">
-          <img src="/images/Logo.svg" alt="MainLogo" class="main-logo"  width="200px" height="55px" >
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link D-Active" href="/index.html">Home</a>
-            </li>
+     <!-- Nav Bars start -->
+     <div class="container-fluid">
+      <div class="container fixed-top">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary px-4 py-0 mt-4 d-NavContainerFluid">
+          <a class="navbar-brand" href="/index.html">
+            <img src="/images/Logo.svg" alt="MainLogo" class="main-logo"  width="200px" height="55px" >
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link D-Active" href="/index.html"> Home </a>
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link" href="/html/packages.html"> Packages </a>
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link" href="/html/shop.html"> Shop  </a>
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link" href="/html/blog.html"> Blog </a>
+              </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#">Packages</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">Shop</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-
-          <div class="d-flex justify-content-center g-4">
-              <!-- IDs added to the links for JavaScript to reference -->
-                
+              <li class="nav-item">
+                <a class="nav-link" href="\profile.html"> Profile </a>
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link" href="/html/aboutUs.html"> About </a>
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link" href="/html/contactUs.html"> Contact </a>
+              </li>
+  
+            </ul>
+  
+            <div class="d-flex justify-content-center g-4">
+                <!-- IDs added to the links for JavaScript to reference -->
+                  <a id="account-button" href="\login.html" >
+                      <button class="D-Button-Primary text-center ">
+                          Login
+                      </button>
+                  </a>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </div>
     </div>
-  </div>
-  <!-- NavBar end -->
+    <!-- NavBar end -->
+  
 
   <!-- Login start here-->
   <div class="T-logingMargin">
@@ -183,7 +193,7 @@ session_start();
                <div class="btn ">
                 <div class="d-flex1 justify-content-center">
                   <!-- IDs added to the links for JavaScript to reference -->
-                    <a id="account-button" href="\profile.html" >
+                    <a id="account-button" href="\profile.php" >
                         <button class="D-Button-Primary text-center " type="submit">
                             Login
                         </button>
@@ -196,7 +206,7 @@ session_start();
                     Don't have an account ?
                   </span>
                   <span class="create">
-                    <a href="\signup.html" class="cre">Create Account</a>
+                    <a href="\signup.php" class="cre">Create Account</a>
                   </span>
                 </p>
               </div>

@@ -43,8 +43,8 @@ $user_data = check_login($con);
 
 <body class="container">
 
-    <!-- Nav Bars start -->
-  <div class="container-fluid">
+   <!-- Nav Bars start -->
+   <div class="container-fluid">
     <div class="container fixed-top">
       <nav class="navbar navbar-expand-lg bg-body-tertiary px-4 py-0 mt-4 d-NavContainerFluid">
         <a class="navbar-brand" href="/index.html">
@@ -57,38 +57,48 @@ $user_data = check_login($con);
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link D-Active" href="/index.php">Home</a>
+              <a class="nav-link D-Active" href="/index.html"> Home </a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Packages</a>
+              <a class="nav-link" href="/html/packages.html"> Packages </a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Shop</a>
+              <a class="nav-link" href="/html/shop.html"> Shop  </a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
+              <a class="nav-link" href="/html/blog.html"> Blog </a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="\profile.html"> Profile </a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="/html/aboutUs.html"> About </a>
             </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/html/contactUs.html"> Contact </a>
+            </li>
+
           </ul>
 
           <div class="d-flex justify-content-center g-4">
               <!-- IDs added to the links for JavaScript to reference -->
-                
+                <a id="account-button" href="\login.html" >
+                    <button class="D-Button-Primary text-center ">
+                        Login
+                    </button>
+                </a>
           </div>
         </div>
       </nav>
     </div>
   </div>
+  <!-- NavBar end -->
    
   <!-- PROFILE PAGE START BY HERE-->
 
@@ -141,7 +151,7 @@ $user_data = check_login($con);
                         <?php echo $user_data['firstname']; ?>
                         </span> <br> <br>
                       
-                  <span class="profiletag4"> Last Name : </span>
+                  <span class="profiletag4"> Last Name : </span> 
                       <span class="Pnamephp">
                         <?php echo $user_data['lastname']; ?>
                         </span> <br> <br>
@@ -175,7 +185,7 @@ $user_data = check_login($con);
 
       <!-- logout button -->
       <div class="logout">
-        <a href="logout.php" target="_blank">
+        <a href="\logout.html" target="_blank">
           <button class="D-Button-Primary text-center mt-5" type="submit">
             LogOut
           </button>
@@ -186,7 +196,7 @@ $user_data = check_login($con);
   </div>
   <div class="col-md-6 colum2">  
     <div class="columextra2">
-    <h1 class="order3">Order History</h1>
+     <h1 class="order3">Order History</h1>
                 
                   
   </div>

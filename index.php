@@ -69,6 +69,10 @@ $userLoggedIn = isset($_SESSION['user_id']);
             </li>
 
             <li class="nav-item">
+              <a class="nav-link" href="\profile.html"> Profile </a>
+            </li>
+
+            <li class="nav-item">
               <a class="nav-link" href="/html/aboutUs.html"> About </a>
             </li>
 
@@ -80,7 +84,7 @@ $userLoggedIn = isset($_SESSION['user_id']);
 
           <div class="d-flex justify-content-center g-4">
               <!-- IDs added to the links for JavaScript to reference -->
-                <a id="account-button" href="\login.html" >
+                <a id="account-button" href="\login.php" >
                     <button class="D-Button-Primary text-center ">
                         Login
                     </button>
@@ -91,6 +95,8 @@ $userLoggedIn = isset($_SESSION['user_id']);
     </div>
   </div>
   <!-- NavBar end -->
+
+   
 
 
 
