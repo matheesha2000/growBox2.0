@@ -104,7 +104,7 @@ $user_data = check_login($con);
 
   <div class="container">
     <div class="row">
-      <div class="col-md-6 colum1" >
+      <div class="col-md-8 colum1" >
         <div class="columextra1">
 
         
@@ -133,7 +133,7 @@ $user_data = check_login($con);
                   </div>
                   
                   
-          
+                  
                   <div class="P-text mt-5">
                   <span class="profiletag1"> Username : </span>
                       <span class="Pnamephp">
@@ -194,7 +194,7 @@ $user_data = check_login($con);
       </div>
     </div>
   </div>
-  <div class="col-md-6 colum2">  
+  <div class="col-md-4 colum2">  
     <div class="columextra2">
      <h1 class="order3">Order History</h1>
                 

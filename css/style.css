@@ -341,7 +341,7 @@ border: none;
 border-bottom: 2px solid #9b9b9b;
 outline: 0;
 font-size: 17px;
-color: #fff;
+color: var(--colorBlack);
 padding: 7px 0;
 background: transparent;
 transition: border-color 0.2s;
@@ -357,7 +357,7 @@ border: none;
 border-bottom: 2px solid #9b9b9b;
 outline: 0;
 font-size: 17px;
-color: #fff;
+color:var(--colorBlack);
 padding: 7px 0;
 background: transparent;
 transition: border-color 0.2s;
@@ -367,11 +367,11 @@ width:250%;
 }
 
 .form__field::placeholder {
-color: transparent;
+  color: transparent;
 }
-
-.form__field2::placeholder {
-color: transparent;
+  
+  .form__field2::placeholder {
+  color: transparent;
 }
 
 .form__field:placeholder-shown ~ .form__label {
@@ -438,7 +438,7 @@ top: 0;
 display: block;
 transition: 0.2s;
 font-size: 17px;
-color: --;
+color:var(--colorGreenMain);
 font-weight: 700;
 }
 
@@ -448,7 +448,7 @@ top: 0;
 display: block;
 transition: 0.2s;
 font-size: 17px;
-color: --;
+color: var(--colorGreenMain);
 font-weight: 700;
 }
 
@@ -502,10 +502,7 @@ padding-left: 95px;
 
 }
 
-.form-check-input{
 
-
-}
 
 .form-check-label j-SearchBarLabel{
 color: var(--colorGreenMain);
